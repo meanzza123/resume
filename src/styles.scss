@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+html,
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    // position: fixed;
+    // background-color: #f1f1ea;
+    background-color: white;
+}
+a {
+    color: gainsboro;
+}
+a:hover {
+    color: grey;
+}
+
+* {
+    font-family: "DB Heavent";
+    outline: none !important;
+    line-height: 1.6rem;
+    letter-spacing: 1.2px;
+}
+
+@font-face {
+    font-style: normal;
+    font-family: "DB Heavent";
+    font-weight: 400;
+    font-display: swap; /* Add this to your @font-face rule */
+   src:local('DB Heavent'), local('DB Heavent'),  url("../src/assets/fonts/db_heavent_v3.2-webfont.woff") format("woff");
+    font-display: swap;
+}

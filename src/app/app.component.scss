@@ -1,0 +1,73 @@
+.container-fluid,
+.col-12 {
+    padding: 0px;
+}
+.row {
+    margin-top: 1rem;
+}
+
+.container-fluid,
+.container {
+    overflow: hidden;
+}
+
+.mat-toolbar.mat-primary {
+    background: #e0dbd1;
+    color: black;
+}
+.mat-toolbar-row {
+    background: #fbfbfa;
+    color: black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+// .mat-drawer-content {
+//     background: #f1f1ea;
+//     // margin-top: -1rem!important;
+// }
+::ng-deep mat-sidenav-container.mat-drawer-container.mat-sidenav-container {
+    // margin-top: -1rem !important;
+    height: 100vh;
+    background: white;
+}
+
+::ng-deep .mat-list-base {
+    padding: 1rem!important;
+    margin-top: 8vh;
+}
+
+.list_menu_navbar {
+    float: right;
+    display: none;
+    @media screen and (min-width: 450px) {
+        display: block;
+    }
+}
+.btn_toggle {
+    display: block;
+    @media screen and (min-width: 500px) {
+        display: none;
+    }
+}
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+    display: inline-block;
+}
+
+::ng-deep .btn_df {
+    background-color: #5555a5;
+    color: white;
+}
+::ng-deep .color_df{
+    background-color: #5555a5;
+    color: white;
+}
+
+::ng-deep .mat-card-content {
+    font-size: 1rem!important;
+
+}

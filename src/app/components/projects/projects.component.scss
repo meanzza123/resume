@@ -1,0 +1,38 @@
+.body {
+    background: #e6dace;
+    height: auto;
+    padding-bottom: 10vh;
+    margin-top: 10vh;
+    text-align: center;
+    .card_content {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        background-color: white;
+        padding: 1.4rem;
+        text-align: left;
+    }
+}
+
+.far {
+    font-weight: 300;
+    color: #5555a5;
+}
+
+::ng-deep .project-card {
+    padding-bottom: 0!important;
+    // background: #cedae6;
+    background: #fbfbfa;
+  
+
+}
+
+.mat-card  {
+    
+    // padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+img.mat-card-image {
+    padding: 1rem;
+    background: white;
+}
