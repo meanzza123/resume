@@ -43,13 +43,13 @@
 .list_menu_navbar {
     float: right;
     display: none;
-    @media screen and (min-width: 450px) {
+    @media screen and (min-width: 600px) {
         display: block;
     }
 }
 .btn_toggle {
     display: block;
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         display: none;
     }
 }
